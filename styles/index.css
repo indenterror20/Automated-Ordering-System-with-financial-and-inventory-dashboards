@@ -1,0 +1,110 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+         
+html, body { 
+    height: 100%; 
+} 
+         
+.layout { 
+    display: flex; 
+    height: 100vh; 
+} 
+         
+    /* Sidebar */ 
+.sidebar { 
+    width: 150px; 
+    background-color: #1e293b; 
+    color: white; 
+    padding: 20px; 
+} 
+         
+    /* Sidebar items */ 
+.sidebar ul { 
+    list-style: none; 
+    margin-top: 20px; 
+} 
+         
+.sidebar li { 
+    padding: 10px 0; 
+    cursor: pointer; 
+} 
+
+.sidebar li a {
+    color: white;  /* or any color you want */
+    text-decoration: none;  /* removes underline */
+}
+         
+.sidebar li:hover { 
+    background-color: gray; 
+    padding-left: 10px; 
+    transition: 0.2s; 
+} 
+         
+    /* Main content */ 
+.content { 
+    flex: 1; 
+    padding: 20px; 
+    background-color: #f1f5f9; 
+} 
+         
+    /*dashboard summary*/ 
+.sales-summary { 
+    display: flex; 
+    gap: 20px; 
+    margin-top: 40px; 
+} 
+         
+.salesdetails { 
+    flex: 1; 
+    padding: 50px; 
+    background-color: #334155; 
+    color: white; 
+    border-radius: 8px; 
+    }
+
+#total-sales{
+    padding-top: 11px;
+}
+
+#total-sales h2{
+    text-align: center;
+    margin-top: 0; 
+}
+
+#total-transac {
+    padding-top: 10px;  /* Add some padding to the container */
+}
+
+#total-transac h2 {
+    text-align: center;
+    margin-top: 0;  /* Remove default h2 margin */
+}
+
+#sales-growth{
+    padding-top: 10px;
+}
+
+#sales-growth{
+    text-align: center;
+    margin-top: 0;
+}
+
+.table th{
+    background-color: whitesmoke;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

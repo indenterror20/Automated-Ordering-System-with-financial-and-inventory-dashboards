@@ -1,0 +1,62 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+         
+html, body { 
+    height: 100%; 
+} 
+         
+.layout { 
+    display: flex; 
+    height: 100vh; 
+} 
+         
+    /* Sidebar */ 
+.sidebar { 
+    width: 150px; 
+    background-color: #1e293b; 
+    color: white; 
+    padding: 20px; 
+} 
+         
+    /* Sidebar items */ 
+.sidebar ul { 
+    list-style: none; 
+    margin-top: 20px; 
+} 
+         
+.sidebar li { 
+    padding: 10px 0; 
+    cursor: pointer; 
+} 
+
+.sidebar li a {
+    color: white;  /* or any color you want */
+    text-decoration: none;  /* removes underline */
+}
+         
+.sidebar li:hover { 
+    background-color: gray; 
+    padding-left: 10px; 
+    transition: 0.2s; 
+} 
+
+.table th{
+    background-color: whitesmoke;
+    padding: 20.5px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
