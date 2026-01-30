@@ -51,13 +51,13 @@ html, body {
 }
 
     /*dashboard summary*/ 
-.sales-summary { 
+.stocks { 
     display: flex; 
     gap: 20px; 
     margin-top: 40px; 
 } 
          
-.salesdetails { 
+.total-stocks { 
     flex: 1; 
     padding: 50px; 
     background-color: #334155; 
@@ -65,29 +65,29 @@ html, body {
     border-radius: 8px; 
     }
 
-#total-sales{
+#total-items{
     padding-top: 11px;
 }
 
-#total-sales h2{
+#total-items h2{
     text-align: center;
     margin-top: 0; 
 }
 
-#total-transac {
+#total-value{
     padding-top: 10px;  /* Add some padding to the container */
 }
 
-#total-transac h2 {
+#total-value h2 {
     text-align: center;
     margin-top: 0;  /* Remove default h2 margin */
 }
 
-#sales-growth{
+#last-updated{
     padding-top: 10px;
 }
 
-#sales-growth{
+#last-updated{
     text-align: center;
     margin-top: 0;
 }
