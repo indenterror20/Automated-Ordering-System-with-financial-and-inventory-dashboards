@@ -91,3 +91,21 @@ html, body {
     text-align: center;
     margin-top: 0;
 }
+
+.inv-table th{
+    background-color: whitesmoke;
+    padding: 25px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.inv-table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
